@@ -1,0 +1,7 @@
+just in the start we inluded 2 header files - ionstreame for the basic commands and classes , and the system / stat.h for importing the stat structure that is used in the further functions
+
+then we defined the function get file name which takes the full actual path name as para meter and returns the name of the file using the method sub string with the help of pointer that we get from reverse find method as the file name follows the last back slash
+further , is regular file is to check if the file to be moved got an extension or not 
+
+so in main fucnction first we check no of arguments as we need atleast 2 arguments other than the excecution command , then we take the source files one by one and retrive the file name first by checking if it is having an extension and then passing path to the get file name function defined earlier with apprropriate arguments . Then we create a new absolute fileanme by adding up detination with baackslash and the filename as on moving the source , the file name should be same .
+then finally we pass the source name and the new formed absolute file name are passed into reanme function which is a system call fuction which executes the transfer of a file. And the loop continues till n-2th index of the list as the last one itself is the destination.

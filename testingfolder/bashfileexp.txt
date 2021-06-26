@@ -1,0 +1,5 @@
+in the beginning of the file we have checkSouce and check destination functions. As the name suggests these functions are to check if the input source files and the destination directories exists and are of the required format and if not then exit the program with the propper error messages.
+moving forward , first we take input of the source files seprated by space and then the destination file as the strings. then we convert spaces in source files sting to new lines making it a list to be iterated.
+then one by one we check for existance of all files inn the list using the check source function defined earlier and the destination directory using the function check destination. 
+And finlly when all the files and and destination are checked successfully we pass the source files and destination directoryy to the self build mymv command.
+
